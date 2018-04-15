@@ -70,3 +70,32 @@ $('.justify-content > .control-panel > .btn.space-evenly').on('click', function(
 	console.log('clicked');
 	$('.container-3').css('justify-content', 'space-evenly');
 });
+
+// align-items 
+
+$('.align-items > .control-panel > .btn.flex-start').on('click', function(){
+	console.log('clicked');
+	$('.container-4').css('align-items', 'flex-start');
+});
+
+$('.align-items > .control-panel > .btn.flex-end').on('click', function(){
+	console.log('clicked');
+	$('.container-4').css('align-items', 'flex-end');
+});
+
+$('.align-items > .control-panel > .btn.center').on('click', function(){
+	console.log('clicked');
+	$('.container-4').css('align-items', 'center');
+});
+
+$('.align-items > .control-panel > .btn.stretch').on('click', function(){
+	console.log('clicked');
+	$('.container-4').css('align-items', 'stretch');
+});
+
+$('.align-items > .control-panel > .btn.baseline').on('click', function(){
+	console.log('clicked');
+	$('.container-4').css('align-items', 'baseline');
+});
+
+// align-content

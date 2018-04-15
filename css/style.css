@@ -55,12 +55,47 @@ header {
 	min-height: 20px;
 	min-width: 20px;
 	width: 50px;
-	height: 50px;
+	height: 50px;	
 	margin: 3px;
 	text-align: center;
 	line-height: 50px;
 	color: white;
 }
+
+.container-2 .box {
+	width: none;
+	height: none;
+}
+
+.container-4 {
+	min-height: 110px;		
+}
+
+
+.container-4 .box {
+	height: auto;
+	width: auto;	
+}
+
+.container-4 > div:first-child {	
+	min-height: 60px;
+	min-width: 60px;
+}
+
+.container-4 > div:nth-child(2) {
+	min-height: 75px;
+	min-width: 100px;
+}
+
+.container-4 > div:nth-child(3) {	
+	min-height: 80px;
+	min-width: 60px;
+}
+
+.container-4 > div:last-child {
+	min-width:70px;	
+}
+
 
 footer {
 	padding-top: 20px;
