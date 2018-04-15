@@ -12,6 +12,7 @@ h6 { font-size: .75em; }
 
 .site-container {
 	width: 60%;
+	min-width: 960px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -31,9 +32,11 @@ header {
 }
 
 .control-panel .btn {
+	cursor: pointer;
 	background-color: orange;
 	margin-right: 10px;
-	padding: 5px 10px;
+	padding: 8px 10px;
+	border-radius: 3px;	
 }
 
 .control-panel .btn:hover {
@@ -47,7 +50,7 @@ header {
 }
 
 .container-2 {
-	width: 35%;
+	width: 30%;
 }
 
 .box {
@@ -62,9 +65,12 @@ header {
 	color: white;
 }
 
-.container-2 .box {
-	width: none;
-	height: none;
+.container-3 > div:first-child {
+	width: 120px;
+}
+
+.container-3 > div:last-child {
+	width: 120px;
 }
 
 .container-4 {
@@ -96,6 +102,42 @@ header {
 	min-width:70px;	
 }
 
+.container-5 {
+	height: 240px;
+	width: 60%;	
+}
+
+.container-5 .box {
+	min-width: 50px;
+}
+
+.container-5 > div:nth-child(2) {
+	width: 75px;
+}
+
+.container-5 > div:nth-child(5) {
+	width: 130px;
+}
+
+.container-5 > div:nth-child(7) {
+	width: 110px;
+}
+
+.container-5 > div:nth-child(8) {
+	width: 90px;
+}
+
+.container-5 > div:nth-child(10) {
+	width: 110px;
+}
+
+.container-5 > div:nth-child(11) {
+	width: 95px;
+}
+
+.container-5 > div:nth-child(13) {
+	width: 140px;
+}
 
 footer {
 	padding-top: 20px;

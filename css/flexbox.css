@@ -7,6 +7,10 @@
 	align-items: center;	
 }
 
+.container-5 {
+	flex-wrap: wrap;
+}
+
 footer {
 	display: flex;
 	justify-content: center
