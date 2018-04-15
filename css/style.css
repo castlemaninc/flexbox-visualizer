@@ -1,0 +1,35 @@
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
+
+.site-container {
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+section {
+	margin-top: 20px;
+}
+
+.container-1, .container-2, .container-3, .container-4, .container-5 {
+	background-color: #eee;
+	min-height: 50px;	
+	padding: 15px;
+}
+
+.box {
+	background-color: #32CD32;
+	min-height: 20px;
+	min-width: 20px;
+	margin: 3px;
+}
+
