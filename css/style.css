@@ -50,6 +50,15 @@ header {
 	background-color: #32CD32;
 	min-height: 20px;
 	min-width: 20px;
+	width: 50px;
+	height: 50px;
 	margin: 3px;
+	text-align: center;
+	line-height: 50px;
+	color: white;
 }
 
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

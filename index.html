@@ -12,7 +12,7 @@
 		<header>
 			<h1>Flexbox Animated</h1>
 		</header>
-		<section>
+		<section class="flex-direction">
 			<div class="control-panel">
 				<h3>flex-direction</h3>
 				<div class="btn row">row (default)</div>
@@ -21,12 +21,12 @@
 				<div class="btn column-reverse">column-reverse</div>
 			</div>
 			<div class="container-1">
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
+				<div class="box">1</div>
+				<div class="box">2</div>
+				<div class="box">3</div>
 			</div>
 		</section>
-		<section>
+		<section class="flex-wrap">
 			<div class="control-panel">
 				<h3>flex-wrap</h3>
 				<div class="btn nowrap">nowrap (default)</div>
@@ -43,7 +43,7 @@
 				<div class="box"></div>			
 			</div>
 		</section>
-		<section>
+		<section class="justify-content">
 			<div class="control-panel">
 				<h3>justify-content</h3>
 				<div class="btn flex-start">flex-start</div>
@@ -59,8 +59,15 @@
 				<div class="box"></div>
 			</div>
 		</section>
-		<section>
-			<h3>align-items</h3>
+		<section class="align-items">
+			<div class="control-panel">
+				<h3>align-items</h3>
+				<div class="btn flex-start">flex-start</div>
+				<div class="btn flex-end">flex-end</div>
+				<div class="btn center">center</div>
+				<div class="btn stretch">stretch (default)</div>
+				<div class="btn baseline">baseline</div>
+			</div>
 			<div class="container-4">
 				<div class="box"></div>
 				<div class="box"></div>
@@ -68,8 +75,16 @@
 				<div class="box"></div>			
 			</div>
 		</section>
-		<section>
-			<h3>align-content</h3>
+		<section class="align-content">
+			<div class="control-panel">
+				<h3>align-content</h3>
+				<div class="btn flex-start">flex-start</div>
+				<div class="btn">flex-end</div>
+				<div class="btn">center</div>
+				<div class="btn">stretch (default)</div>
+				<div class="btn">space-between</div>
+				<div class="btn">space-around</div>
+			</div>			
 			<div class="container-5">
 				<div class="box"></div>
 				<div class="box"></div>
@@ -85,6 +100,11 @@
 				<div class="box"></div>			
 			</div>
 		</section>
+	<footer>
+		<div>
+			<h5>Bryan Castleman 2018</h5>
+		</div>
+	</footer>
 	</div>
 
 <!-- jQuery -->
