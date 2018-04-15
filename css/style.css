@@ -46,6 +46,10 @@ header {
 	padding: 15px;
 }
 
+.container-2 {
+	width: 35%;
+}
+
 .box {
 	background-color: #32CD32;
 	min-height: 20px;
