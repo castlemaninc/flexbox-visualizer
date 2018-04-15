@@ -7,12 +7,19 @@
 	<link rel="stylesheet" type="text/css" href="css/flexbox.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
-<body>
-	
+<body>	
 	<div class="site-container">
-		<h1>Flexbox</h1>
+		<header>
+			<h1>Flexbox Animated</h1>
+		</header>
 		<section>
-			<h3>flex-direction</h3>
+			<div class="control-panel">
+				<h3>flex-direction</h3>
+				<div class="btn row">row (default)</div>
+				<div class="btn row-reverse">row-reverse</div>
+				<div class="btn column">column</div>
+				<div class="btn column-reverse">column-reverse</div>
+			</div>
 			<div class="container-1">
 				<div class="box"></div>
 				<div class="box"></div>
@@ -20,7 +27,12 @@
 			</div>
 		</section>
 		<section>
-			<h3>flex-wrap</h3>
+			<div class="control-panel">
+				<h3>flex-wrap</h3>
+				<div class="btn nowrap">nowrap (default)</div>
+				<div class="btn wrap">wrap</div>
+				<div class="btn wrap-reverse">wrap-reverse</div>
+			</div>
 			<div class="container-2">
 				<div class="box"></div>
 				<div class="box"></div>
@@ -32,7 +44,15 @@
 			</div>
 		</section>
 		<section>
-			<h3>justify-content</h3>
+			<div class="control-panel">
+				<h3>justify-content</h3>
+				<div class="btn flex-start">flex-start</div>
+				<div class="btn flex-end">flex-end</div>
+				<div class="btn center">center</div>
+				<div class="btn space-between">space-between</div>
+				<div class="btn space-around">space-around</div>
+				<div class="btn space-evenly">space-evenly</div>
+			</div>
 			<div class="container-3">
 				<div class="box"></div>
 				<div class="box"></div>
@@ -66,8 +86,10 @@
 			</div>
 		</section>
 	</div>
-	<!-- jQuery -->
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>	
-	<script src="js/actions.js"></script>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>	
+<script src="js/actions.js"></script>
+
 </body>
 </html>

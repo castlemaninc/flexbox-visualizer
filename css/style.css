@@ -16,8 +16,28 @@ h6 { font-size: .75em; }
 	margin-left: auto;
 }
 
-section {
+header {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.control-panel {
 	margin-top: 20px;
+	margin-bottom: 10px;	
+}
+
+.control-panel h3 {
+	margin-right: 10px;
+}
+
+.control-panel .btn {
+	background-color: orange;
+	margin-right: 10px;
+	padding: 5px 10px;
+}
+
+.control-panel .btn:hover {
+	background-color: darkorange;
 }
 
 .container-1, .container-2, .container-3, .container-4, .container-5 {
