@@ -1,4 +1,4 @@
-# Flexbox Animated - Day 4 of 100 #100DaysOfCode
+# Flexbox Demonstrated - Day 4 of 100 #100DaysOfCode
 Currently this project demonstrates flexbox properties related to an element's parent container.  
 
 ### The Flexbox properties that are demonstrated are:

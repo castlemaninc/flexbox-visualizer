@@ -3,7 +3,7 @@ console.log("ready");
 // flex-direction
 
 $('.flex-direction > .control-panel > .btn.row').on('click', function(){	
-	$('.container-1').css('flex-direction', 'row');
+	$('.container-1').css('flex-direction', 'row');	
 });
 
 $('.flex-direction > .control-panel > .btn.row-reverse').on('click', function(){
