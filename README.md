@@ -1,5 +1,5 @@
-# Flexbox Demonstrated - Day 4 of 100 #100DaysOfCode
-Currently this project demonstrates flexbox properties related to an element's parent container.  
+# Flexbox Visualizer - Day 4 of 100 #100DaysOfCode
+Currently this project allows a user to visualize flexbox properties.  
 
 ### The Flexbox properties that are demonstrated are:
 
